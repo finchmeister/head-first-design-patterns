@@ -1,7 +1,10 @@
 <?php
 
 
-namespace Duck;
+namespace StrategyPattern\Duck\Ducks;
+
+use StrategyPattern\Duck\Behaviour\Fly\FlyBehaviourInterface;
+use StrategyPattern\Duck\Behaviour\Quack\QuackBehaviourInterface;
 
 abstract class AbstractDuck
 {
@@ -25,5 +28,15 @@ abstract class AbstractDuck
     public function swim(): void
     {
         echo "All ducks float, even decoys!".PHP_EOL;
+    }
+
+    public function setFlyBehaviour(FlyBehaviourInterface $fb): void
+    {
+        $this->flyBehaviour = $fb;
+    }
+
+    public function setQuackBehaviour(QuackBehaviourInterface $qb): void
+    {
+        $this->quackBehaviour = $qb;
     }
 }

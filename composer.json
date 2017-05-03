@@ -1,5 +1,7 @@
 {
     "autoload": {
-        "psr-4": {"Duck\\": "intro-into-design-patterns/"}
+        "psr-4": {
+            "StrategyPattern\\": "StrategyPattern/"
+        }
     }
 }

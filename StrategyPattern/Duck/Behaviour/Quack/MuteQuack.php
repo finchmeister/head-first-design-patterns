@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Duck;
+namespace StrategyPattern\Duck\Behaviour\Quack;
 
 
 class MuteQuack implements QuackBehaviourInterface
 {
-    public function fly(): void
+    public function quack(): void
     {
         echo "<< Silence >>".PHP_EOL;
     }
