@@ -1,10 +1,10 @@
 <?php
 
 
-namespace ObserverPattern;
+namespace DesignPatterns\Observer;
 
 
-class CurrentConditionDisplay implements ObserverInterface, DisplayInterface
+class CurrentConditionsDisplay implements ObserverInterface, DisplayInterface
 {
 
     /** @var float */
@@ -15,7 +15,7 @@ class CurrentConditionDisplay implements ObserverInterface, DisplayInterface
 
     private $weatherData;
 
-    public function currentConditionsDisplay(WeatherData $weatherData)
+    public function __construct(WeatherData $weatherData)
     {
         $this->weatherData = $weatherData;
         $this->weatherData->registerObserver($this);
@@ -25,7 +25,7 @@ class CurrentConditionDisplay implements ObserverInterface, DisplayInterface
     public function display(): void
     {
         echo sprintf(
-            "Current conditions: %sc degrees and %s%% humidity",
+            "Current conditions: %sc degrees and %s%% humidity\n",
             $this->temperature,
             $this->humidity
         );

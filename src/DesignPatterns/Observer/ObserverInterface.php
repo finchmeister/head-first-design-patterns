@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ObserverPattern;
+namespace DesignPatterns\Observer;
 
 
 interface ObserverInterface

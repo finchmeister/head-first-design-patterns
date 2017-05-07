@@ -1,13 +1,13 @@
 <?php
 
 
-namespace ObserverPattern;
+namespace DesignPatterns\Observer;
 
 
 class WeatherData implements SubjectInterface
 {
     /** @var ObserverInterface[] */
-    private $observers;
+    public $observers;
 
     /** @var float */
     private $temperature;

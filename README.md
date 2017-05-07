@@ -1,9 +1,24 @@
 # head-first-design-patterns
 
-## 1. Strategy Pattern
+[Book GitHub Repository](https://github.com/bethrobson/Head-First-Design-Patterns)
+
+To autoload classes:
+
+```bash
+composer install
+```
+
+## Design Patterns
+### 1. Strategy
 
 Duck simulator:
 
 ```bash
-php StrategyPattern/Client.php
+php bin/strategy-pattern.php 
+```
+
+### 2. Observer
+Weather station
+```bash
+php bin/observer-pattern.php 
 ```
