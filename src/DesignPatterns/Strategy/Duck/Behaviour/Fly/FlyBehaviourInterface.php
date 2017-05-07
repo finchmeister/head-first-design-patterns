@@ -1,7 +1,7 @@
 <?php
 
 
-namespace StrategyPattern\Duck\Behaviour\Fly;
+namespace DesignPatterns\Strategy\Duck\Behaviour\Fly;
 
 
 interface FlyBehaviourInterface

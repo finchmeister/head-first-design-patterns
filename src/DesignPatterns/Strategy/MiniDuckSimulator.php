@@ -1,10 +1,10 @@
 <?php
 
-namespace StrategyPattern;
+namespace DesignPatterns\Strategy;
 
-use StrategyPattern\Duck\Behaviour\Fly\FlyRocketPowered;
-use StrategyPattern\Duck\Ducks\MallardDuck;
-use StrategyPattern\Duck\Ducks\ModelDuck;
+use DesignPatterns\Strategy\Duck\Behaviour\Fly\FlyRocketPowered;
+use DesignPatterns\Strategy\Duck\Ducks\MallardDuck;
+use DesignPatterns\Strategy\Duck\Ducks\ModelDuck;
 
 class MiniDuckSimulator
 {

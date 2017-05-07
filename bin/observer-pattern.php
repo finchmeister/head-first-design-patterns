@@ -3,4 +3,4 @@
 require __DIR__."/../vendor/autoload.php";
 
 
-\ObserverPattern\WeatherStation::main([]);
+\DesignPatterns\Observer\WeatherStation::main([]);

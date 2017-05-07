@@ -1,10 +1,10 @@
 <?php
 
 
-namespace StrategyPattern\Duck\Ducks;
+namespace DesignPatterns\Strategy\Duck\Ducks;
 
-use StrategyPattern\Duck\Behaviour\Fly\FlyWithWings;
-use StrategyPattern\Duck\Behaviour\Quack\Quack;
+use DesignPatterns\Strategy\Duck\Behaviour\Fly\FlyWithWings;
+use DesignPatterns\Strategy\Duck\Behaviour\Quack\Quack;
 
 class MallardDuck extends AbstractDuck
 {

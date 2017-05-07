@@ -3,4 +3,4 @@
 require __DIR__."/../vendor/autoload.php";
 
 
-\StrategyPattern\MiniDuckSimulator::main();
+\DesignPatterns\Strategy\MiniDuckSimulator::main();

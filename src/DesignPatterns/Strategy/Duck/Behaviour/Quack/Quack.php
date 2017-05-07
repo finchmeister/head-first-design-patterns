@@ -1,7 +1,7 @@
 <?php
 
 
-namespace StrategyPattern\Duck\Behaviour\Quack;
+namespace DesignPatterns\Strategy\Duck\Behaviour\Quack;
 
 
 class Quack implements QuackBehaviourInterface

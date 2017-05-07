@@ -1,10 +1,10 @@
 <?php
 
 
-namespace StrategyPattern\Duck\Ducks;
+namespace DesignPatterns\Strategy\Duck\Ducks;
 
-use StrategyPattern\Duck\Behaviour\Fly\FlyBehaviourInterface;
-use StrategyPattern\Duck\Behaviour\Quack\QuackBehaviourInterface;
+use DesignPatterns\Strategy\Duck\Behaviour\Fly\FlyBehaviourInterface;
+use DesignPatterns\Strategy\Duck\Behaviour\Quack\QuackBehaviourInterface;
 
 abstract class AbstractDuck
 {
