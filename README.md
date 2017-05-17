@@ -23,3 +23,12 @@ Weather station
 php bin/observer-pattern.php 
 ```
 
+### 3. Decorator
+Starbuzz Coffee
+```bash
+php bin/decorator-pattern.php 
+```
+
+## Reference:
+
+__List of Patterns__: https://sourcemaking.com/design_patterns
