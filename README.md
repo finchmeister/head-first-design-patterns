@@ -29,6 +29,12 @@ Starbuzz Coffee
 php bin/decorator-pattern.php 
 ```
 
+### 3. Factory
+Pizza Store
+```bash
+php bin/factory-pattern.php 
+```
+
 ## Reference:
 
 __List of Patterns__: https://sourcemaking.com/design_patterns

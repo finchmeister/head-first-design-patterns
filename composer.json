@@ -1,7 +1,8 @@
 {
     "autoload": {
         "psr-4": {
-            "DesignPatterns\\": "src/DesignPatterns"
+            "DesignPatterns\\": "src/DesignPatterns",
+            "System\\": "src/System"
         }
     }
 }
